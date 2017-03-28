@@ -8,18 +8,22 @@
     <string name="playlist_title">PlayList</string>
 
     <!-- Main Activity Strings -->
-    <string name="nowplaying_string">Show details of audio file currently playing\nLoop for each item within playlist\n
-        Controls on bottom would be configured to manipulate songs</string>
+    <string name="nowplaying_string">Show details of audio file currently playing from playlist\n
+        Controls on bottom would be configured to manipulate songs\n
+        Load media with Media player API using both Mediaplayer and AudioManager\n
+        Load information about media from Cursor in specific position</string>
 
     <!-- PlaylistActivity Strings -->
-    <string name="playlist_string">Items will need to be placed in a array list and array adapter\n
-                need to have ability to remove and move items</string>
+    <string name="playlist_string">Songs added from Search loaded within ListView\n
+        need to have ability to remove and move items\n
+        load cursor within cursor adapter and populate in listView</string>
 
     <!-- SearchActivity Strings -->
     <string name="search_string">Show available files from within android device\n
-            Would likely use information from android dev site to search device for audio\n
-            Needs to be place results in array list and array adapter\n
-            Need to have ability to add songs to playlist queue</string>
+        Need to have ability to add songs to playlist queue\n
+        Retrieving media from a ContentResolver\n
+        Save results into a cursor\n</string>
+
     <!-- Toast message  -->
     <string name="toast_default">Current page</string>
 
