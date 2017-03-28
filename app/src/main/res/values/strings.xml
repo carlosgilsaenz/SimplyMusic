@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">SimplyMusic</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Titles for each Button-->
+    <string name="nowPlaying_title">Now Playing</string>
+    <string name="search_title">Search</string>
+    <string name="playlist_title">PlayList</string>
+
+    <!-- Main Activity Strings -->
+    <string name="nowplaying_string">Show details of audio file currently playing\nLoop for each item within playlist\n
+        Controls on bottom would be configured to manipulate songs</string>
+
+    <!-- PlaylistActivity Strings -->
+    <string name="playlist_string">Items will need to be placed in a array list and array adapter\n
+                need to have ability to remove and move items</string>
+
+    <!-- SearchActivity Strings -->
+    <string name="search_string">Show available files from within android device\n
+            Would likely use information from android dev site to search device for audio\n
+            Needs to be place results in array list and array adapter\n
+            Need to have ability to add songs to playlist queue</string>
+    <!-- Toast message  -->
+    <string name="toast_default">Current page</string>
+
+</resources>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.simplymusic.PlaylistActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_top"
+        style="@style/toolbar"
+        android:layout_height="?attr/actionBarSize">
+
+        <LinearLayout style="@style/toolbar_linear_layout">
+
+            <Button
+                android:id="@+id/search_button"
+                style="@style/toolbar_button_top"
+                android:text="@string/search_title" />
+
+            <Button
+                android:id="@+id/now_playing_button"
+                style="@style/toolbar_button_top"
+                android:text="@string/nowPlaying_title" />
+
+            <Button
+                android:id="@+id/playlist_button"
+                style="@style/toolbar_button_top"
+                android:text="@string/playlist_title" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <TextView
+        style="@style/text_view_body"
+        android:text="@string/playlist_string" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar_bottom"
+        style="@style/toolbar"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentBottom="true">
+
+        <LinearLayout style="@style/toolbar_linear_layout">
+
+            <ImageView
+                style="@style/toolbar_button_bottom"
+                android:src="@drawable/ic_skip_previous_white_24dp" />
+
+            <ImageView
+                style="@style/toolbar_button_bottom"
+                android:src="@drawable/ic_pause_white_24dp" />
+
+            <ImageView
+                style="@style/toolbar_button_bottom"
+                android:src="@drawable/ic_play_arrow_white_24dp" />
+
+            <ImageView
+                style="@style/toolbar_button_bottom"
+                android:src="@drawable/ic_skip_next_white_24dp" />
+
+        </LinearLayout>
+    </android.support.v7.widget.Toolbar>
+
+</RelativeLayout>
