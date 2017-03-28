@@ -51,7 +51,7 @@ public class PlaylistActivity extends AppCompatActivity {
         playlistButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(PlaylistActivity.this,R.string.toast_default, Toast.LENGTH_SHORT).show();
+                Toast.makeText(PlaylistActivity.this, R.string.toast_default, Toast.LENGTH_SHORT).show();
             }
         });
     }

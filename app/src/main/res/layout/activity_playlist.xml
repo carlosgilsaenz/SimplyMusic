@@ -7,25 +7,35 @@
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_top"
-        style="@style/toolbar"
-        android:layout_height="?attr/actionBarSize">
+        style="@style/toolbar">
 
-        <LinearLayout style="@style/toolbar_linear_layout">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
-            <Button
-                android:id="@+id/search_button"
-                style="@style/toolbar_button_top"
-                android:text="@string/search_title" />
-
-            <Button
-                android:id="@+id/now_playing_button"
-                style="@style/toolbar_button_top"
-                android:text="@string/nowPlaying_title" />
-
-            <Button
-                android:id="@+id/playlist_button"
-                style="@style/toolbar_button_top"
+            <TextView
+                style="@style/toolbar_title"
                 android:text="@string/playlist_title" />
+
+            <LinearLayout style="@style/toolbar_linear_layout">
+
+                <Button
+                    android:id="@+id/search_button"
+                    style="@style/toolbar_button_top"
+                    android:text="@string/search_title" />
+
+                <Button
+                    android:id="@+id/now_playing_button"
+                    style="@style/toolbar_button_top"
+                    android:text="@string/nowPlaying_title" />
+
+                <Button
+                    android:id="@+id/playlist_button"
+                    style="@style/toolbar_button_top"
+                    android:text="@string/playlist_title" />
+
+            </LinearLayout>
 
         </LinearLayout>
 
@@ -38,7 +48,6 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar_bottom"
         style="@style/toolbar"
-        android:layout_height="?attr/actionBarSize"
         android:layout_alignParentBottom="true">
 
         <LinearLayout style="@style/toolbar_linear_layout">

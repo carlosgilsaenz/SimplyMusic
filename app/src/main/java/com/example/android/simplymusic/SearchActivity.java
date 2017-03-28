@@ -35,7 +35,7 @@ public class SearchActivity extends AppCompatActivity {
         searchButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(SearchActivity.this,R.string.toast_default, Toast.LENGTH_SHORT).show();
+                Toast.makeText(SearchActivity.this, R.string.toast_default, Toast.LENGTH_SHORT).show();
             }
         });
 
